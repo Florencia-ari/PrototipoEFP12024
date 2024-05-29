@@ -35,8 +35,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Login.h" />
+		<Unit filename="include/Pelicula.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Login.cpp" />
+		<Unit filename="src/Pelicula.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

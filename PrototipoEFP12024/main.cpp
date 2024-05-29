@@ -48,7 +48,7 @@ void menuGeneral()
         cout << "\t\t\t|          BIENBENIDO          |" << endl;
         cout << "\t\t\t+------------------------------+" << endl;
         cout << "\t\t\t| 1. Catalogos                 |" << endl;
-        cout << "\t\t\t| 2. Reportes                  |" << endl;
+        cout << "\t\t\t| 2. Informes                  |" << endl;
         cout << "\t\t\t| 3. Seguridad                 |" << endl;
         cout << "\t\t\t| 4. Salir del Sistema         |" << endl;
         cout << "\t\t\t+------------------------------+" << endl;
@@ -62,7 +62,13 @@ void menuGeneral()
         case 1:
             catalogos();
             break;
-        case2:
+        case 2:
+        	{
+        	PeliculaCRUD a;
+			a.imprimir();
+        	// Auditoria.ingresoBitacora(user,"1006","Ias");
+        	         system("pause");
+        	         }
             break;
         case 3:
         	{

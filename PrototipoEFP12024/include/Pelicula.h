@@ -16,6 +16,7 @@ struct Pelicula{
 };
 class PeliculaCRUD {
 public:
+	    void imprimir();
     void Ingresar();
     void Modificar();
     void Borrar();

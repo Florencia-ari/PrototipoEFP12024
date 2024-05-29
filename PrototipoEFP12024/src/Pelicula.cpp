@@ -204,7 +204,7 @@ void PeliculaCRUD::Desplegar() {
     system("cls");
  system("cls");
  cout << "\t\t\tMaria FLorencia Ariaga Chiroy-9959-23-6741" << endl<< endl;
-    cout<<"------------------------ASIGNACION DE Pelicula---------------------"<<endl;
+    cout<<"------------------------Pelicula---------------------"<<endl;
     cout<<" Codigo      Nombre del Pelicula        Genero         Precio "<<endl;
     cout<<"-----------------------------------------------------------------"<<endl;
 
@@ -233,3 +233,72 @@ void PeliculaCRUD::Desplegar() {
     cin.ignore();
     cin.get();
 }
+
+
+
+void PeliculaCRUD::imprimir()
+
+{     system("cls");
+
+	// Variable para almacenar el número
+    int id;
+    cout << "Ingrese el codigo de pelicula que desea imprimir: ";
+    cin >> id;
+    // Abrir el archivo binario de codigonaciones para lectura
+
+    ifstream archivo("Pelicula.dat", ios::binary);
+    if (!archivo) {
+        cout << "No hay Peliculas registradas." << endl;
+        return;
+    }
+
+    Pelicula a;
+    bool encontrada = false;
+    // Lee el archivo por registro
+    while (archivo.read(reinterpret_cast<char*>(&a), sizeof(Pelicula))) {
+		// Se compara el numero de acta del registro actual con el numero ingresado por el usuario
+        if (a.codigo == id) {
+        	            // Si se encuentra el acta, se imprimen sus datos en la pantalla.
+            cout << endl << "-----------------------PELICULA--------------------------" << endl << endl;
+           cout << "CODIGO: "<<   a.codigo<< endl;
+        cout << "Nombre :   "<< a.nombre<< endl ;
+        cout << "Genero:  "<<   a.Genero<< endl;
+        cout << "Precio:  "<<   a.Precio<< endl;
+            cout << endl << "-----------------------------------------------------" << endl << endl;
+
+            //imprimir en archivo - ALISSON LOPEZ
+
+			// Se abre el archivo de texto en modo escritura
+            FILE *arch = fopen("Informe.txt", "wt");
+			// Se verifica si se abrió correctamente el archivo de texto
+            if (arch == NULL) {
+                cerr << "Error al imprimir informe." << endl;
+                // Si hay un error, se termina la ejecución del programa
+                exit(1);
+            }
+			// Se escriben los datos del acta en el archivo de texto
+            fprintf(arch, "Codigo: %d\n", a.codigo);
+            fprintf(arch, "Nombre:   %s\n", a.nombre);
+            fprintf(arch, "Genero:  %s\n", a.Genero);
+            fprintf(arch, "Precio:  %s\n", a.Precio);
+            // Se cierra el archivo de texto.
+            fclose(arch);
+                        // Se informa al usuario que se creó el archivo de texto con los datos del acta
+            cout << "Se imprimio correctamente (Informe)" << endl;
+            getch();
+
+            encontrada = true;
+            break;
+        }
+    }
+
+    if (!encontrada) {
+        cout << "La PELICULA  " <<id << " no existe." << endl;
+    }
+
+    archivo.close();
+    cout << "Presione Enter para continuar...";
+    cin.ignore();
+    cin.get();
+}
+
