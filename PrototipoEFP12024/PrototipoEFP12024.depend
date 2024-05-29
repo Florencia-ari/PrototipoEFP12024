@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1717000043 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\login.cpp
+1717000480 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\login.cpp
 	"Login.h"
 	<iostream>
 	<fstream>
@@ -14,7 +14,7 @@
 	<fstream>
 	<string>
 
-1717000166 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\main.cpp
+1717000480 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\main.cpp
 	<iostream>
 	<cstdlib>
 	<conio.h>
@@ -22,7 +22,7 @@
 	"Pelicula.h"
 	"Bitacora.h"
 
-1716999452 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\pelicula.cpp
+1717000480 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\pelicula.cpp
 	"Pelicula.h"
 	<fstream>
 	<iostream>
@@ -30,6 +30,7 @@
 	<cstdlib>
 	<conio.h>
 	<iomanip>
+	"Bitacora.h"
 
 1716999746 d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\include\pelicula.h
 	<stdlib.h>
@@ -37,7 +38,7 @@
 	<conio.h>
 	<iomanip>
 
-1717000024 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\bitacora.cpp
+1717000480 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\bitacora.cpp
 	"Bitacora.h"
 	<iostream>
 	<fstream>
@@ -46,6 +47,6 @@
 	<stdlib.h>
 	<iomanip>
 
-1717000001 d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\include\bitacora.h
+1717000480 d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\include\bitacora.h
 	<iostream>
 

@@ -1,4 +1,4 @@
-Codigo: 1
-Nombre:   Rey leon
-Genero:  Infantil
-Precio:  45
+Codigo: 2
+Nombre:   Terror
+Genero:  Terror
+Precio:  457
