@@ -1,0 +1,35 @@
+commit c3cf30305a104e7123cb911c5f67800f1ca11ef9
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed May 29 10:41:53 2024 -0600
+
+    mejoras
+
+commit d1dac3f3e6f483875141c9e64c3e826ed264cd52
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed May 29 10:33:49 2024 -0600
+
+    BITACORA DEL PROGRAMA- MARIA ARIAGA -6741
+
+commit c0ad7fc846e3a13dbe893dcefdb9118257d836a7
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed May 29 10:21:56 2024 -0600
+
+    INFORMES DEL PROGRAMA- MARIA ARIAGA-6741
+
+commit 6bc1f4d5f9e45d51d27f1fb1b9d5192045f75c33
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed May 29 10:07:23 2024 -0600
+
+    CRUD DE PELICULAS - MARIA FLORENCIA ARIAGA - 9959-23-6741
+
+commit c67de919531cb6555f66cde93ed1538a6f9d7376
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed May 29 09:54:18 2024 -0600
+
+    MENU GENERAL DEL PROGRA
+
+commit b387343f02813d3d28e16a7b03c8344c165c73e1
+Author: Florencia-ari <157136805+Florencia-ari@users.noreply.github.com>
+Date:   Wed May 29 09:20:14 2024 -0600
+
+    Initial commit
