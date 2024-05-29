@@ -5,13 +5,14 @@
 #include<cstdlib>
 #include<conio.h>
 #include<iomanip>
-
-//#include "Bitacora.h"
+#include "Bitacora.h"
 
 using namespace std;
 
 void PeliculaCRUD::CrudPelicula() {
 int choice;
+Bitacora Auditoria;
+
 //implementacion de variables para la bitacora
 string codigoPrograma="1001";
 //Bitacora Auditoria;
@@ -41,25 +42,25 @@ string user="Florencia";
 	case 1:
         Ingresar();
         //Se ejecuta la accion y se registra en la bitacora
-//        Auditoria.ingresoBitacora(user,codigoPrograma,"CJU"); //CCU = Create Pelicula
+        Auditoria.ingresoBitacora(user,codigoPrograma,"CPE"); //CCU = Create Pelicula
          system("pause");
 		break;
     case 2:
         Modificar();
          //Se ejecuta la accion y se registra en la bitacora
-//        Auditoria.ingresoBitacora(user,codigoPrograma,"UJU"); //UCU = Update Pelicula
+        Auditoria.ingresoBitacora(user,codigoPrograma,"UPE"); //UCU = Update Pelicula
          system("pause");
 		break;
     case 3:
         Borrar();
         //Se ejecuta la accion y se registra en la bitacora
-//        Auditoria.ingresoBitacora(user,codigoPrograma,"DJU"); //DCU = Delete Pelicula
+        Auditoria.ingresoBitacora(user,codigoPrograma,"DPE"); //DCU = Delete Pelicula
          system("pause");
 		break;
     case 4:
         Desplegar();
         //Se ejecuta la accion y se registra en la bitacora
-//        Auditoria.ingresoBitacora(user,codigoPrograma,"RJU"); //RCU = Read Pelicula
+        Auditoria.ingresoBitacora(user,codigoPrograma,"RJU"); //RCU = Read Pelicula
         system("pause");
 		break;
     case 5:

@@ -4,7 +4,7 @@
 #include <conio.h>
 #include "Login.h"
 #include "Pelicula.h"
-
+#include "Bitacora.h"
 
 using namespace std;
 
@@ -14,8 +14,8 @@ void reportes();
 void procesos();
 void ayuda();
 void seguridad();
-//string codigoPrograma="1000";
-//Bitacora Auditoria;
+string codigoPrograma="1000";
+Bitacora Auditoria;
 string user, contrasena;
 
 int main()
@@ -66,18 +66,18 @@ void menuGeneral()
         	{
         	PeliculaCRUD a;
 			a.imprimir();
-        	// Auditoria.ingresoBitacora(user,"1006","Ias");
+        	 Auditoria.ingresoBitacora(user,"1006","IPE");
         	         system("pause");
         	         }
             break;
         case 3:
         	{
-            // Bitacora Auditoria;
-			//Auditoria.visualizarBitacora();
+             Bitacora Auditoria;
+			Auditoria.visualizarBitacora();
 			}
             break;
         case 4:
-//                    Auditoria.ingresoBitacora(user,codigoPrograma,"LGO"); //llamada para registrar la bitacora de seguridad
+                    Auditoria.ingresoBitacora(user,codigoPrograma,"LGO"); //llamada para registrar la bitacora de seguridad
             exit(0);
         default:
             cout << "\n\t\t\t Opcion invalida...Por favor prueba otra vez..";

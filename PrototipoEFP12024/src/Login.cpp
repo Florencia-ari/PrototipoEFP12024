@@ -5,7 +5,7 @@
 #include<cstdlib>
 #include<conio.h>
 #include<iomanip>
-//#include "Bitacora.h"
+#include "Bitacora.h"
 using namespace std;
 
 
@@ -89,7 +89,7 @@ bool Login::VerificarUsuario()
         return false;
     }
     string codigoPrograma="1000";
-//    Bitacora Auditoria;
+    Bitacora Auditoria;
 
     //busca el usuario en el archivo---------------------------------
     string user,pass;
@@ -97,7 +97,7 @@ bool Login::VerificarUsuario()
     {
         if (user==usuario && pass==contrasena)
         {
-//            Auditoria.ingresoBitacora(user,codigoPrograma,"LGI");
+            Auditoria.ingresoBitacora(user,codigoPrograma,"LGI");
             encontrado=true;
             break;
         }
