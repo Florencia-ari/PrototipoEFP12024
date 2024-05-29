@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <conio.h>
 #include "Login.h"
-
+#include "Pelicula.h"
 
 
 using namespace std;
@@ -103,8 +103,8 @@ void catalogos()
         {
         case 1:
         {
-//        	PeliculaCRUD Pelicula;
-  //          Pelicula.CrudPelicula();
+        	PeliculaCRUD Pelicula;
+            Pelicula.CrudPelicula();
 
         }
             break;

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1716997962 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\login.cpp
+1716998157 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\login.cpp
 	"Login.h"
 	<iostream>
 	<fstream>
@@ -8,14 +8,29 @@
 	<conio.h>
 	<iomanip>
 
-1716997921 d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\include\login.h
+1716998157 d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\include\login.h
 	<iostream>
 	<fstream>
 	<string>
 
-1716997952 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\main.cpp
+1716998157 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\main.cpp
 	<iostream>
 	<cstdlib>
 	<conio.h>
 	"Login.h"
+
+1716998577 source:d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\src\pelicula.cpp
+	"Pelicula.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1716998468 d:\umg\semestre 3\programacion 1\parcial final\prototipoefp12024\prototipoefp12024\include\pelicula.h
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
 
